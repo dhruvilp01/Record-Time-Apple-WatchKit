@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A13A1D7920EEA2DB00654421 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13A1D7820EEA2DB00654421 /* AppDelegate.swift */; };
+		A13A1D7B20EEA2DB00654421 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13A1D7A20EEA2DB00654421 /* ViewController.swift */; };
+		A13A1D7E20EEA2DB00654421 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13A1D7C20EEA2DB00654421 /* Main.storyboard */; };
+		A13A1D8020EEA2DB00654421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A13A1D7F20EEA2DB00654421 /* Assets.xcassets */; };
+		A13A1D8320EEA2DB00654421 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13A1D8120EEA2DB00654421 /* LaunchScreen.storyboard */; };
+		A13A1D8820EEA2DB00654421 /* RecordTimeWatchApp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A13A1D8720EEA2DB00654421 /* RecordTimeWatchApp WatchKit App.app */; };
+		A13A1D8E20EEA2DB00654421 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13A1D8C20EEA2DB00654421 /* Interface.storyboard */; };
+		A13A1D9020EEA2DB00654421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A13A1D8F20EEA2DB00654421 /* Assets.xcassets */; };
+		A13A1D9720EEA2DB00654421 /* RecordTimeWatchApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A13A1D9620EEA2DB00654421 /* RecordTimeWatchApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A13A1D9C20EEA2DB00654421 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13A1D9B20EEA2DB00654421 /* InterfaceController.swift */; };
+		A13A1D9E20EEA2DB00654421 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13A1D9D20EEA2DB00654421 /* ExtensionDelegate.swift */; };
+		A13A1DA020EEA2DB00654421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A13A1D9F20EEA2DB00654421 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A13A1D8920EEA2DB00654421 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A13A1D6D20EEA2DB00654421 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A13A1D8620EEA2DB00654421;
+			remoteInfo = "RecordTimeWatchApp WatchKit App";
+		};
+		A13A1D9820EEA2DB00654421 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A13A1D6D20EEA2DB00654421 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A13A1D9520EEA2DB00654421;
+			remoteInfo = "RecordTimeWatchApp WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A13A1DA720EEA2DB00654421 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A13A1D9720EEA2DB00654421 /* RecordTimeWatchApp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13A1DAB20EEA2DB00654421 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A13A1D8820EEA2DB00654421 /* RecordTimeWatchApp WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A13A1D7520EEA2DB00654421 /* RecordTimeWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecordTimeWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13A1D7820EEA2DB00654421 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A13A1D7A20EEA2DB00654421 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A13A1D7D20EEA2DB00654421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A13A1D7F20EEA2DB00654421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A13A1D8220EEA2DB00654421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A13A1D8420EEA2DB00654421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A13A1D8720EEA2DB00654421 /* RecordTimeWatchApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RecordTimeWatchApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13A1D8D20EEA2DB00654421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A13A1D8F20EEA2DB00654421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A13A1D9120EEA2DB00654421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A13A1D9620EEA2DB00654421 /* RecordTimeWatchApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "RecordTimeWatchApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13A1D9B20EEA2DB00654421 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		A13A1D9D20EEA2DB00654421 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		A13A1D9F20EEA2DB00654421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A13A1DA120EEA2DB00654421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A13A1D7220EEA2DB00654421 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13A1D9320EEA2DB00654421 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A13A1D6C20EEA2DB00654421 = {
+			isa = PBXGroup;
+			children = (
+				A13A1D7720EEA2DB00654421 /* RecordTimeWatchApp */,
+				A13A1D8B20EEA2DB00654421 /* RecordTimeWatchApp WatchKit App */,
+				A13A1D9A20EEA2DB00654421 /* RecordTimeWatchApp WatchKit Extension */,
+				A13A1D7620EEA2DB00654421 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A13A1D7620EEA2DB00654421 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A13A1D7520EEA2DB00654421 /* RecordTimeWatchApp.app */,
+				A13A1D8720EEA2DB00654421 /* RecordTimeWatchApp WatchKit App.app */,
+				A13A1D9620EEA2DB00654421 /* RecordTimeWatchApp WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A13A1D7720EEA2DB00654421 /* RecordTimeWatchApp */ = {
+			isa = PBXGroup;
+			children = (
+				A13A1D7820EEA2DB00654421 /* AppDelegate.swift */,
+				A13A1D7A20EEA2DB00654421 /* ViewController.swift */,
+				A13A1D7C20EEA2DB00654421 /* Main.storyboard */,
+				A13A1D7F20EEA2DB00654421 /* Assets.xcassets */,
+				A13A1D8120EEA2DB00654421 /* LaunchScreen.storyboard */,
+				A13A1D8420EEA2DB00654421 /* Info.plist */,
+			);
+			path = RecordTimeWatchApp;
+			sourceTree = "<group>";
+		};
+		A13A1D8B20EEA2DB00654421 /* RecordTimeWatchApp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A13A1D8C20EEA2DB00654421 /* Interface.storyboard */,
+				A13A1D8F20EEA2DB00654421 /* Assets.xcassets */,
+				A13A1D9120EEA2DB00654421 /* Info.plist */,
+			);
+			path = "RecordTimeWatchApp WatchKit App";
+			sourceTree = "<group>";
+		};
+		A13A1D9A20EEA2DB00654421 /* RecordTimeWatchApp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A13A1D9B20EEA2DB00654421 /* InterfaceController.swift */,
+				A13A1D9D20EEA2DB00654421 /* ExtensionDelegate.swift */,
+				A13A1D9F20EEA2DB00654421 /* Assets.xcassets */,
+				A13A1DA120EEA2DB00654421 /* Info.plist */,
+			);
+			path = "RecordTimeWatchApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A13A1D7420EEA2DB00654421 /* RecordTimeWatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A13A1DAC20EEA2DB00654421 /* Build configuration list for PBXNativeTarget "RecordTimeWatchApp" */;
+			buildPhases = (
+				A13A1D7120EEA2DB00654421 /* Sources */,
+				A13A1D7220EEA2DB00654421 /* Frameworks */,
+				A13A1D7320EEA2DB00654421 /* Resources */,
+				A13A1DAB20EEA2DB00654421 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A13A1D8A20EEA2DB00654421 /* PBXTargetDependency */,
+			);
+			name = RecordTimeWatchApp;
+			productName = RecordTimeWatchApp;
+			productReference = A13A1D7520EEA2DB00654421 /* RecordTimeWatchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A13A1D8620EEA2DB00654421 /* RecordTimeWatchApp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A13A1DA820EEA2DB00654421 /* Build configuration list for PBXNativeTarget "RecordTimeWatchApp WatchKit App" */;
+			buildPhases = (
+				A13A1D8520EEA2DB00654421 /* Resources */,
+				A13A1DA720EEA2DB00654421 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A13A1D9920EEA2DB00654421 /* PBXTargetDependency */,
+			);
+			name = "RecordTimeWatchApp WatchKit App";
+			productName = "RecordTimeWatchApp WatchKit App";
+			productReference = A13A1D8720EEA2DB00654421 /* RecordTimeWatchApp WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A13A1D9520EEA2DB00654421 /* RecordTimeWatchApp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A13A1DA420EEA2DB00654421 /* Build configuration list for PBXNativeTarget "RecordTimeWatchApp WatchKit Extension" */;
+			buildPhases = (
+				A13A1D9220EEA2DB00654421 /* Sources */,
+				A13A1D9320EEA2DB00654421 /* Frameworks */,
+				A13A1D9420EEA2DB00654421 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RecordTimeWatchApp WatchKit Extension";
+			productName = "RecordTimeWatchApp WatchKit Extension";
+			productReference = A13A1D9620EEA2DB00654421 /* RecordTimeWatchApp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A13A1D6D20EEA2DB00654421 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Dhruvil;
+				TargetAttributes = {
+					A13A1D7420EEA2DB00654421 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					A13A1D8620EEA2DB00654421 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					A13A1D9520EEA2DB00654421 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A13A1D7020EEA2DB00654421 /* Build configuration list for PBXProject "RecordTimeWatchApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A13A1D6C20EEA2DB00654421;
+			productRefGroup = A13A1D7620EEA2DB00654421 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A13A1D7420EEA2DB00654421 /* RecordTimeWatchApp */,
+				A13A1D8620EEA2DB00654421 /* RecordTimeWatchApp WatchKit App */,
+				A13A1D9520EEA2DB00654421 /* RecordTimeWatchApp WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A13A1D7320EEA2DB00654421 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13A1D8320EEA2DB00654421 /* LaunchScreen.storyboard in Resources */,
+				A13A1D8020EEA2DB00654421 /* Assets.xcassets in Resources */,
+				A13A1D7E20EEA2DB00654421 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13A1D8520EEA2DB00654421 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13A1D9020EEA2DB00654421 /* Assets.xcassets in Resources */,
+				A13A1D8E20EEA2DB00654421 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13A1D9420EEA2DB00654421 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13A1DA020EEA2DB00654421 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A13A1D7120EEA2DB00654421 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13A1D7B20EEA2DB00654421 /* ViewController.swift in Sources */,
+				A13A1D7920EEA2DB00654421 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13A1D9220EEA2DB00654421 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13A1D9E20EEA2DB00654421 /* ExtensionDelegate.swift in Sources */,
+				A13A1D9C20EEA2DB00654421 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A13A1D8A20EEA2DB00654421 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A13A1D8620EEA2DB00654421 /* RecordTimeWatchApp WatchKit App */;
+			targetProxy = A13A1D8920EEA2DB00654421 /* PBXContainerItemProxy */;
+		};
+		A13A1D9920EEA2DB00654421 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A13A1D9520EEA2DB00654421 /* RecordTimeWatchApp WatchKit Extension */;
+			targetProxy = A13A1D9820EEA2DB00654421 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A13A1D7C20EEA2DB00654421 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A13A1D7D20EEA2DB00654421 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A13A1D8120EEA2DB00654421 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A13A1D8220EEA2DB00654421 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A13A1D8C20EEA2DB00654421 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A13A1D8D20EEA2DB00654421 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A13A1DA220EEA2DB00654421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A13A1DA320EEA2DB00654421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A13A1DA520EEA2DB00654421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 767LHU7K45;
+				INFOPLIST_FILE = "RecordTimeWatchApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dhruvilp7068.RecordTimeWatchApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Debug;
+		};
+		A13A1DA620EEA2DB00654421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 767LHU7K45;
+				INFOPLIST_FILE = "RecordTimeWatchApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dhruvilp7068.RecordTimeWatchApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Release;
+		};
+		A13A1DA920EEA2DB00654421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 767LHU7K45;
+				IBSC_MODULE = RecordTimeWatchApp_WatchKit_Extension;
+				INFOPLIST_FILE = "RecordTimeWatchApp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dhruvilp7068.RecordTimeWatchApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Debug;
+		};
+		A13A1DAA20EEA2DB00654421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 767LHU7K45;
+				IBSC_MODULE = RecordTimeWatchApp_WatchKit_Extension;
+				INFOPLIST_FILE = "RecordTimeWatchApp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dhruvilp7068.RecordTimeWatchApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Release;
+		};
+		A13A1DAD20EEA2DB00654421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 767LHU7K45;
+				INFOPLIST_FILE = RecordTimeWatchApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dhruvilp7068.RecordTimeWatchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A13A1DAE20EEA2DB00654421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 767LHU7K45;
+				INFOPLIST_FILE = RecordTimeWatchApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dhruvilp7068.RecordTimeWatchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A13A1D7020EEA2DB00654421 /* Build configuration list for PBXProject "RecordTimeWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13A1DA220EEA2DB00654421 /* Debug */,
+				A13A1DA320EEA2DB00654421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A13A1DA420EEA2DB00654421 /* Build configuration list for PBXNativeTarget "RecordTimeWatchApp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13A1DA520EEA2DB00654421 /* Debug */,
+				A13A1DA620EEA2DB00654421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A13A1DA820EEA2DB00654421 /* Build configuration list for PBXNativeTarget "RecordTimeWatchApp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13A1DA920EEA2DB00654421 /* Debug */,
+				A13A1DAA20EEA2DB00654421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A13A1DAC20EEA2DB00654421 /* Build configuration list for PBXNativeTarget "RecordTimeWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13A1DAD20EEA2DB00654421 /* Debug */,
+				A13A1DAE20EEA2DB00654421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A13A1D6D20EEA2DB00654421 /* Project object */;
+}
