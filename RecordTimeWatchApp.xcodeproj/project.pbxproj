@@ -19,6 +19,9 @@
 		A13A1D9C20EEA2DB00654421 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13A1D9B20EEA2DB00654421 /* InterfaceController.swift */; };
 		A13A1D9E20EEA2DB00654421 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13A1D9D20EEA2DB00654421 /* ExtensionDelegate.swift */; };
 		A13A1DA020EEA2DB00654421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A13A1D9F20EEA2DB00654421 /* Assets.xcassets */; };
+		A1AFFA4420EFCC23004814A0 /* TimeTableInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AFFA4320EFCC23004814A0 /* TimeTableInterfaceController.swift */; };
+		A1AFFA4620EFCDA4004814A0 /* ClockInOutRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AFFA4520EFCDA4004814A0 /* ClockInOutRowController.swift */; };
+		A1AFFA4820EFD39D004814A0 /* DetailInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AFFA4720EFD39D004814A0 /* DetailInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +83,9 @@
 		A13A1D9D20EEA2DB00654421 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		A13A1D9F20EEA2DB00654421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A13A1DA120EEA2DB00654421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1AFFA4320EFCC23004814A0 /* TimeTableInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableInterfaceController.swift; sourceTree = "<group>"; };
+		A1AFFA4520EFCDA4004814A0 /* ClockInOutRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockInOutRowController.swift; sourceTree = "<group>"; };
+		A1AFFA4720EFD39D004814A0 /* DetailInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,9 +153,12 @@
 			isa = PBXGroup;
 			children = (
 				A13A1D9B20EEA2DB00654421 /* InterfaceController.swift */,
-				A13A1D9D20EEA2DB00654421 /* ExtensionDelegate.swift */,
+				A1AFFA4320EFCC23004814A0 /* TimeTableInterfaceController.swift */,
+				A1AFFA4520EFCDA4004814A0 /* ClockInOutRowController.swift */,
+				A1AFFA4720EFD39D004814A0 /* DetailInterfaceController.swift */,
 				A13A1D9F20EEA2DB00654421 /* Assets.xcassets */,
 				A13A1DA120EEA2DB00654421 /* Info.plist */,
+				A13A1D9D20EEA2DB00654421 /* ExtensionDelegate.swift */,
 			);
 			path = "RecordTimeWatchApp WatchKit Extension";
 			sourceTree = "<group>";
@@ -299,7 +308,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A13A1D9E20EEA2DB00654421 /* ExtensionDelegate.swift in Sources */,
+				A1AFFA4420EFCC23004814A0 /* TimeTableInterfaceController.swift in Sources */,
 				A13A1D9C20EEA2DB00654421 /* InterfaceController.swift in Sources */,
+				A1AFFA4620EFCDA4004814A0 /* ClockInOutRowController.swift in Sources */,
+				A1AFFA4820EFD39D004814A0 /* DetailInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
