@@ -1,11 +1,11 @@
-## Record Time App ----  iOS Apple Watch
+# Record Time App ----  iOS Apple Watch
 
-# Best App to Record your time and Motivate yourself to push everyday work.
+## Best App to Record your time and Motivate yourself to push everyday work.
 
 	1. Best for the Beginner for the Apple Watch.
 	2. It is easy to learn in Apple Watch.
 
-#In App features:
+## In App features:
 
 	1. Check-In, when you start your work
 	2. Check-Out, When you done for that time, again you can check-In for the same day when you start it again.
